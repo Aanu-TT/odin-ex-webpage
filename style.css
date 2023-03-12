@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    background-color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px #ccc solid; */
+    width: 580px;
+    height: 615px;
+}
+
+header{
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 6rem;
+    background-color: #1f2937;
+    color: whitesmoke;
+    /* header color switch up */
+
+    background-image: linear-gradient(#ccc, #253b5b);
+    opacity: 99%;
+   
+}
+.logo{
+    font-size: 0.65rem;
+    font-weight: bold ;
+    color: #f9faf8;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    font-size: 0.5rem;
+    font-weight: lighter;
+    list-style: none;
+    padding: 0 0.25rem;
+    
+}
+a{
+     color: #e5e7eb;
+     cursor: pointer;
+     text-decoration: none;
+}
+nav li a:hover{
+    color: aqua;
+    transition: all 0.4s ease 0s;
+}
+
+
+.text1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 6rem;
+    background-color: #1f2937;
+}
+.hero-text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0rem 0rem;
+    margin: 0 0rem 0 0;
+}
+.hero-text h2{
+color: #f9faf8;
+font-size: 1.2rem;
+}
+.hero-text p{
+    color: #e5e7eb;
+    font-size: 0.5rem;
+}
+.btn{
+    background-color:#3882f6;
+    color: #e5e7eb;
+    border-radius: 2px;
+    margin: 0.25rem 0;
+    padding: 0.2rem 0.85rem;
+    border: hidden;
+    font-size: x-small;
+}
+.btn{
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: aqua;
+    color: #1f2937;
+}
+.img-hero{
+    border: 1px #808080 solid;
+    padding: 2.5rem 2rem 2.5rem 2.5rem;
+    text-align: center;
+    margin: 2rem 0.25rem;
+    background-color: #808080;
+    color: #f9faf8;
+    font-size: 0.45rem;
+    width: 20rem;
+    height: auto;
+}
+
+
+.text2{
+    padding: 1rem 6rem; 
+    background-color: #f9faf8;
+}
+.text2 h2{
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+.rand-info{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    justify-content: center;
+
+}
+.rand-info-child div{
+   flex-direction: row;
+   width: 4.5rem;
+   margin: 0 0.5rem;
+   height: 4.5rem;
+   border-radius: 8px;
+}
+.img-rand{
+    border: 1.5px #3882f6 solid;
+    padding: 1rem;
+    margin: 0.15rem;
+}
+.rand-info p{
+    font-size: 0.5rem;
+    text-align: center;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+
+
+.quote{
+    padding: 1.5rem 7rem;
+    font-size: 0.96rem;
+    font-weight: 100;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+.authour{
+    text-align: end;
+    font-size: 0.65rem;
+    font-weight: bold;
+}
+
+
+.signup{
+    background-color: #f9faf8;
+ } 
+.signup-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 0.7rem 1.5rem;
+    margin: 1.7rem 6rem;
+    border-radius: 4px;
+}
+.signup button{
+    border: 1px #e5e7eb solid;
+}
+.call h5{
+    font-size: 0.63rem;
+}
+.call p{
+    font-size: 0.5rem;
+}
+
+
+.attribution{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
